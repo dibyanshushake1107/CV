@@ -31,6 +31,36 @@
   </ol>
   <hr size = "3" noshade>
   <a href="Contact Us.html">My contact</a>
+  <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My contact</title>
+  </head>
+  <body>
+    <h2>Contact Details</h2>
+    <ul>
+      <li><strong><u>Mobile Number</u> - 9650374668</strong></li>
+      <li><strong><u>Email id</u> - dibyanshu.shekhar1994@gmail.com</strong></li>
+    </ul>
+    <form "" action="mailto:dibyanshu.shekhar1994@gmail.com" method="post" enctype="text/plain">
+      <label>Name:</label><br>
+      <input type="text" name="YourName" value=""><br>
+      <label> Email:</label><br>
+      <input type="email" name="YourEmail" value="">
+      <label for="Message"></label><br>
+      <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+      <label>DOB</label><br>
+      <input type="date"><br>
+      <label>Password</label><br>
+      <input type="password">
+      <input type="checkbox">
+      <input type="file">
+      <input type="submit" name="">
+
+    </form>
+  </body>
+</html>
   <hr size = "3" noshade>
   <h2>Work Experience</h2>
   <table cellspacing = "20">
